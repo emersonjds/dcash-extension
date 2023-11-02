@@ -9,18 +9,15 @@ const Home: React.FC = () => {
       <div style={{
         display: 'flex',
         flexDirection: 'column',
-        height: '100vh',
-        width: '320px',
+        height: '500px',
+        width: '500px',
         overflowX: 'hidden',
         overflowY: 'hidden',
-        // marginTop: '2rem',
-        // marginRight: '2rem',
-
       }}>
         {/* HEADER */}
         <div
           style={{
-            height: '10vh',
+
             width: '100vw',
             backgroundColor: '#000',
           }}
