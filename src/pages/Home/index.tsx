@@ -10,7 +10,12 @@ const Home: React.FC = () => {
         display: 'flex',
         flexDirection: 'column',
         height: '100vh',
-        width: '100vw',
+        width: '320px',
+        overflowX: 'hidden',
+        overflowY: 'hidden',
+        // marginTop: '2rem',
+        // marginRight: '2rem',
+
       }}>
         {/* HEADER */}
         <div
@@ -42,9 +47,15 @@ const Home: React.FC = () => {
             backgroundColor: '#fff',
           }}
         >
+          {/* LEFT SIDE */}
+          <div>
+            <span>BALANCE</span>
+          </div>
 
-
-
+          {/* RIGHT SIDE */}
+          <div>
+            <span>TRANSACTIONS</span>
+          </div>
         </div>
 
 
