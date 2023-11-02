@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "My Extension",
-  "description": "My Extension",
+  "name": "DCash Extension",
+  "description": "Extension to get cashback on stores with Deco",
   "version": "1.0.0",
   "action": {
     "default_popup": "index.html",
