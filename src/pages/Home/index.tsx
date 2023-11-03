@@ -61,7 +61,7 @@ const Home: React.FC = () => {
 
         <div
           style={{
-            height: '20vh',
+            height: '20%',
             width: '100vw',
             backgroundColor: '#1c2d34',
           }}
@@ -104,13 +104,13 @@ const Home: React.FC = () => {
         {/* CONTENT */}
         <div
           style={{
-            height: '60vh',
+            height: '60%',
             width: '100vw',
             backgroundColor: '#fff',
             padding: '1rem',
           }}
         >
-          <div className='mt-2 mb-2'>
+          <div className='mb-2'>
             <p className="text-[#0A2121] text-lg ml-4">Veja algumas lojas parceiras</p>
           </div>
 
@@ -157,7 +157,7 @@ const Home: React.FC = () => {
 
         <div
           style={{
-            height: '20vh',
+            height: '20%',
             width: '100vw',
             padding: '1rem',
             alignItems: 'center',
