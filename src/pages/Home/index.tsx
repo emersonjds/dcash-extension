@@ -1,37 +1,61 @@
 import React from 'react';
 import Loading from '../../components/Loading';
+import Logo from '../../assets/images/deco.png';
 
 // import { Container } from './styles';
 
 const Home: React.FC = () => {
   return (
     <>
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        height: '500px',
-        width: '500px',
-        overflowX: 'hidden',
-        overflowY: 'hidden',
-      }}>
+      <div
+        style={{
+
+          height: '480px',
+          width: '480px',
+
+        }}
+        className="flex flex-col overflow-x-hidden overflow-y-hidden"
+      >
         {/* HEADER */}
         <div
           style={{
 
             width: '100vw',
-            backgroundColor: '#000',
+            backgroundColor: '#1c2d34',
+
           }}
+          className='flex flex-row items-center p-x-4 p-y-2'
         >
-          <span
+          <div
             style={{
-              color: '#fff',
-              fontSize: '3rem',
-              fontWeight: 'bold',
-              marginLeft: '2rem',
+              height: 80,
+              width: 80,
             }}
+
+            className=' pl-2 pt-2'
           >
-            Titulo - DCash
-          </span>
+            <img src={Logo} alt="Logo" />
+          </div>
+          <div
+            className='flex flex-col'
+          >
+            <span
+              style={{
+                color: '#fff',
+                fontSize: '2rem',
+                fontWeight: 'bold',
+                marginLeft: '2rem',
+              }}
+            >
+              DCash
+            </span>
+            <span
+              className='ml-8 text-white text-sm'
+            >
+              Seus cashbacks em 1 unico lugar
+            </span>
+          </div>
+
         </div>
 
         <Loading />
