@@ -1,5 +1,5 @@
 import React from 'react';
-// import Loading from '../../components/Loading';
+
 import Logo from '../../assets/images/deco.png';
 import Logo1 from '../../assets/store_logo/torra.png';
 import Logo2 from '../../assets/store_logo/zee.png';
@@ -47,10 +47,6 @@ const storeData = [
   },
 ]
 
-
-
-// import { Container } from './styles';
-
 const Home: React.FC = () => {
   return (
     <>
@@ -62,7 +58,6 @@ const Home: React.FC = () => {
         className="flex flex-col"
       >
         {/* HEADER */}
-
 
         <div
           style={{
@@ -126,9 +121,6 @@ const Home: React.FC = () => {
             justifyContent: 'center',
             flexWrap: 'wrap',
             gap: '2rem',
-            // height: '100%',
-            // width: '100%',
-
           }}>
 
             {/* CARD STORE */}
