@@ -49,4 +49,7 @@ Access the extensions area of ​​your browser, then in manage extensions load
 ## Screenshots
 
 
+<img width="625" alt="Screenshot 2023-11-04 at 01 49 28" src="https://github.com/emersonjds/dcash-extension/assets/12503997/aaae08ba-28a2-4362-8cf5-140bf91cb43a">
+
+
 
