@@ -167,9 +167,11 @@ const Home: React.FC = () => {
           }}
         >
           <button className="bg-[#02F67C] font-bold py-2 px-4 rounded w-full">
-            <span className='text-[#0A2121]'>
+            <a className='text-[#0A2121]'
+              href='https://dcash-wallet.netlify.app/'
+            >
               Acessar minha carteira DCash
-            </span>
+            </a>
           </button>
 
           <a href="" className='text-[#02F67C] mt-2'>
